@@ -1,2 +1,2 @@
-turtle.forward()
+print("hi")
 -- hi guys
