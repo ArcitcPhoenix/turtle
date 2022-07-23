@@ -1,3 +1,1 @@
-if true
-
-then
+turtle.forward()
