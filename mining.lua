@@ -12,7 +12,7 @@ while running do
         print(blockInfo)
     end
     turtle.turnLeft()
-    turtle.inspect()
+    blockBool()
     if (isOre == true) then
         print(blockInfo)
         turtle.dig()
