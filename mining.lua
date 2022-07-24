@@ -23,7 +23,7 @@ while running do
     print(blockInfo.name)
     isOre = blockBool and string.find(blockInfo.name, "ore")
     
-    if isOre == true then
+    if isOre then
         print("isOre")
     end
     end
