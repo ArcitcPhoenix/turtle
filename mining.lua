@@ -12,6 +12,7 @@ local function check()
     turtle.inspect()
     if (isOre == true) then
         print(blockInfo)
+        turtle.dig()
     end
     turtle.turnRight()
     turtle.turnRight()
