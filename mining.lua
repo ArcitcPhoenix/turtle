@@ -1,4 +1,3 @@
-local blockBool, blockInfo = turtle.inspect()
 local isOre
 local running = true
 
@@ -18,6 +17,7 @@ end
     
 
 while running do
+    local blockBool, blockInfo = turtle.inspect()
     isOre = blockBool and string.find(blockInfo.name, "ore")
     if isOre == true then
         print("isOre")
