@@ -20,7 +20,6 @@ end
 while running do
 
     local blockBool, blockInfo = turtle.inspect()
-    print(blockInfo.name)
     isOre = blockBool and string.find(blockInfo.name, "ore")
     
     if isOre then
