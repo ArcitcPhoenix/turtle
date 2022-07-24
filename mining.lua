@@ -1,2 +1,2 @@
 local blockBool, blockInfo = turtle.inspect();
-print(blockInfo)
+print(blockInfo.name)
